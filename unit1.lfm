@@ -1,0 +1,82 @@
+object fMain: TfMain
+  Left = 982
+  Height = 341
+  Top = 300
+  Width = 380
+  Caption = 'fMain'
+  ClientHeight = 341
+  ClientWidth = 380
+  Color = clMoneyGreen
+  LCLVersion = '3.2.0.0'
+  object Button1: TButton
+    Left = 136
+    Height = 25
+    Top = 56
+    Width = 114
+    Caption = 'Вариант умн. 1'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 141
+    Height = 23
+    Top = 6
+    Width = 102
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 6
+    Height = 15
+    Top = 6
+    Width = 80
+    Caption = 'Введите число'
+    OnClick = Label1Click
+  end
+  object BitBtn1: TBitBtn
+    Left = 160
+    Height = 30
+    Top = 304
+    Width = 75
+    Caption = 'Выход'
+    Kind = bkAbort
+    ModalResult = 3
+    OnClick = BitBtn1Click
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 138
+    Height = 25
+    Top = 179
+    Width = 109
+    Caption = 'Вариант умн. 2'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 138
+    Height = 25
+    Top = 219
+    Width = 114
+    Caption = 'Вариант умн. 3'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 138
+    Height = 25
+    Top = 99
+    Width = 109
+    Caption = 'Вариант умн. 4'
+    TabOrder = 5
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 138
+    Height = 25
+    Top = 139
+    Width = 114
+    Caption = 'Вариант умн. 5'
+    TabOrder = 6
+    OnClick = Button5Click
+  end
+end
